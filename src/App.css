@@ -1,0 +1,38 @@
+nav {
+  display:flex;
+  background-color: grey;
+  width: 100vw;
+  height: 60px;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  z-index: 1;
+}
+
+ul li, h2 {
+  color: white;
+  font-size: 15px;
+  list-style-type: none;
+  margin-left: 80px; 
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+img {
+  width: 50px;
+}
+@media (max-width: 500px) {
+  nav {
+    display: none;
+  }
+  img {
+    display: block;
+  }
+  menu {
+    display: block;
+  }
+}
