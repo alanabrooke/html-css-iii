@@ -9,7 +9,7 @@ class App extends Component {
     }
   }
   handleClick = () => {
-    this.setState({menuIsOpen: !this.state.menuIsOpen})
+    this.setState({menuOpen: !this.state.menuOpen})
   }
 
   render() {
@@ -17,7 +17,7 @@ class App extends Component {
       <div>
         <nav>
           <h2>Start Bootstrap</h2>
-          <ul>
+          <ul className='links'>
             <li>SERVICES</li>
             <li>PORTFOLIO</li>
             <li>ABOUT</li>

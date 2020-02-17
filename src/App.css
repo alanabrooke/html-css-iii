@@ -2,7 +2,7 @@ nav {
   display:flex;
   background-color: grey;
   width: 100vw;
-  height: 60px;
+  height: 70px;
   align-items: center;
   justify-content: space-around;
   position: relative;
@@ -20,19 +20,38 @@ ul {
   display: flex;
   justify-content: space-between;
   width: 40%;
+
 }
 
 img {
   width: 50px;
 }
-@media (max-width: 500px) {
-  nav {
-    display: none;
-  }
-  img {
-    display: block;
-  }
-  menu {
-    display: block;
-  }
+
+menu {
+  width: 100vw;
+  height: 200px;
+  background: grey;
+  transform: translateY(-260px);
+  transition: transform .1s;
+  z-index: 0;
+  position: relative;
+  color: white;
+ 
 }
+
+  .menu-open {
+    transform: translateY(0px);
+  }
+  
+  @media (max-width: 1050px) {
+    .nav-links {
+      display: none;
+    }
+    img {
+      display: block;
+    }
+    menu {
+      display: block;
+    }
+  }
+
