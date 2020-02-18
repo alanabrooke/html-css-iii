@@ -31,7 +31,7 @@ menu {
   width: 100vw;
   height: 200px;
   background: grey;
-  transform: translateY(-260px);
+  transform: translateY(-300px);
   transition: transform .1s;
   z-index: 0;
   position: relative;
@@ -40,7 +40,7 @@ menu {
 }
 
   .menu-open {
-    transform: translateY(0px);
+    transform: translateY(-20px);
   }
   
   @media (max-width: 1050px) {
