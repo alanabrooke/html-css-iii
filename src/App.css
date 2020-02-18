@@ -20,8 +20,12 @@ ul li, h2 {
   font-size: 15px;
   list-style-type: none;
   margin-left: 80px; 
+
 }
 
+h2 { 
+  color: gold;
+}
 
 img {
   display: none;
@@ -46,10 +50,11 @@ menu {
   @media (max-width: 995px) {
     .links {
       display: none;
+      flex-direction: column;
     }
     img {
       display: block;
-      width: 50px;
+      width: 40px;
     }
     menu {
       display: block;
